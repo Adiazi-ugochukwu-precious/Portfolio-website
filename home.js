@@ -14,7 +14,7 @@ const projects = [
     {
       title: "To-Do List",
       description: "An advanced task management app with a futuristic touch and local storage.",
-      liveDemo: "#",
+      liveDemo: "https://adiazi-ugochukwu-precious.github.io/todo-list-app/",
       repo: "#",
     },
   ];
