@@ -1,0 +1,105 @@
+body {
+    font-family: 'Orbitron', 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #EAEAEA;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  header {
+    background: #111;
+    padding: 1em 0;
+    text-align: center;
+    border-bottom: 2px solid #444;
+  }
+  
+  header nav a {
+    color: #EAEAEA;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  header nav a:hover {
+    color: #1E90FF;
+  }
+  
+  #hero {
+    background: radial-gradient(circle at top left, #1e3c72, #2a5298);
+    color: white;
+    padding: 5em 1em;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
+  
+  #hero .highlight {
+    color: #1E90FF;
+    text-shadow: 0px 0px 10px rgba(30, 144, 255, 0.8);
+  }
+  
+  .typewriter {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid white;
+    animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  section {
+    padding: 3em 1em;
+    text-align: center;
+    backdrop-filter: blur(5px);
+  }
+  
+  .project-card {
+    border: 1px solid #1E90FF;
+    padding: 1.5em;
+    margin: 1em auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(30, 144, 255, 0.5);
+  }
+  
+  footer {
+    background: #111;
+    color: #EAEAEA;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  footer a {
+    color: #1E90FF;
+    margin: 0 0.5em;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: #FFD700;
+  }
+  
+  body.dark-theme {
+    background: linear-gradient(135deg, #121212, #323232, #424242);
+    color: #EAEAEA;
+  }
+  
+  body.dark-theme a {
+    color: #FFD700;
+  }
